@@ -6,13 +6,10 @@ int main() {
     int n;
     cin >> n;
     int a[n];
+    int visited[n];
     for (int i = 0; i < n; i++){
         cin >> a[i];
-    }
-
-    int visited[n];
-    for (int v: visited){
-        v = 0;
+        visited[i] = 0;
     }
 
     int maxCount = 0, maxElement = 0, count = 0;
