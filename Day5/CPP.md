@@ -15,10 +15,15 @@ Stack, Queue, Priority-Queue
 
 ### Vector
 
-add at end -> push_back() --> O(1)
-pop -> pop_back(p, v) --> O(n)
-insert -> insert(index, value)
-v.begin() -> point to the first index
-v.end() - point to the last index + 1
+add at end -> `push_back()` --> O(1)
 
-.size() - size of vector
+pop -> `pop_back(p, v)` --> O(n)
+
+insert -> `insert(index, value)`
+
+`v.begin()` -> point to the first index
+
+`v.end()` - point to the last index + 1
+
+`v.size()` - size of vector
+
